@@ -188,7 +188,6 @@ h2 {
   height: 38px;
   background: transparent;
   border: var(--border);
-  /*transition: box-shadow 0.3s ease, color 0.3s ease; */
 }
 
 .button__text {
