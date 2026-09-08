@@ -103,6 +103,13 @@ h2 {
      1px  1px 0 rgba(0, 0, 0, 1);
 }
 
+@supports (text-stroke: 1px #fff) {
+  .card-label {
+    text-stroke: 1px #fff;
+    text-shadow: none; 
+  }
+} 
+
 /*ФОТОКАРТОЧКИ*/
 
 .image {
@@ -166,10 +173,6 @@ h2 {
   gap: 12px;
   margin-left: auto;
   cursor: pointer;
-}
-
-.like-icon {
-  position: relative;
 }
 
 .button {
