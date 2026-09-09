@@ -18,8 +18,6 @@
 /* БАЗОВЫЕ СТИЛИ ДЛЯ СЕРДЕЧКА */
 .like-icon {
   display: block;
-  width: 39px;
-  height: 36px;
   flex-shrink: 0;
   cursor: pointer;
 }
@@ -31,10 +29,12 @@
 }
 
 .like-icon .main-body {
+  fill: transparent;
   transition: fill 0.3s linear;
 }
 
 .like-icon .core {
+  fill: transparent;
   transition: fill 0.3s linear 0.03s;
 }
 
@@ -45,22 +45,22 @@
 
 .like-icon:hover .core {
   fill: var(--contour-color);
-  transition-delay: 0s;
+  transition: fill 0.3s linear 0s;
 }
 
 .like-icon:hover .main-body {
   fill: var(--contour-color);
-  transition-delay: 0.05s;
+  transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon:active .core {
   fill: var(--animation-fill-color);
-  transition-delay: 0s;
+  transition: fill 0.3s linear 0s;
 }
 
 .like-icon:active .main-body {
   fill: var(--animation-fill-color);
-  transition-delay: 0.05s;
+  transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon.is-liked .core {
