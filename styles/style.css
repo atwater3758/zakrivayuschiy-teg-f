@@ -308,7 +308,7 @@ dialog::backdrop {
   outline: none;
 }
 
-.heart-button:focus-visible {
+.card__icon-button:focus-visible {
   border: var(--border);
   outline: none;
 }
@@ -334,14 +334,13 @@ dialog::backdrop {
 @media (width <= 375px) {
 
  .content {
-  margin: 100px auto 50px auto;
+  margin-top: 100px;
  }
   /* КНОПКА "СОХРАНИТЬ НА ПАМЯТЬ" */
 
   .card__actions {
     display: flex;
     justify-content: center;
-    padding: 17px 20px;
   }
 
   .card__save-button {
